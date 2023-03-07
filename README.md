@@ -11,8 +11,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/yaraElGazar/frontend-mentor-challenge2-interactive-rating-component)
-- Live Site URL: [Live site](https://yaraelgazar.github.io/frontend-mentor-challenge2-interactive-rating-component/)
+- Solution URL: [Solution](https://github.com/yaraElGazar/frontend-mentor-challenge3-Results-summary-component-solution)
+- Live Site URL: [Live site](https://yaraelgazar.github.io/frontend-mentor-challenge3-Results-summary-component-solution/)
 
 ### Built with
 
