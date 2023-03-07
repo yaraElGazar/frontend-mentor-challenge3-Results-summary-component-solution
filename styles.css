@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.card {
+  width: 500px;
+  height: 350px;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 2px #c6c5c5;
+}
+
+.result {
+  width: 50%;
+  background: rgb(49, 44, 233);
+  background: linear-gradient(
+    0deg,
+    hsl(241, 81%, 54%) 0%,
+    hsl(252, 100%, 67%) 99%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: rgb(72, 53, 241);
+  background: linear-gradient(
+    0deg,
+    hsla(241, 72%, 46%, 0) 0%,
+    hsla(256, 72%, 46%, 1) 99%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  color: hsl(241, 100%, 89%);
+  margin: 25px 0px;
+}
+
+.score {
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+  margin: 0px;
+}
+
+.total {
+  color: #8980ee;
+  font-size: 0.9rem;
+  margin: 0px;
+}
+
+.great {
+  font-size: 1.4rem;
+  color: white;
+  margin: 15px 0px;
+}
+
+.text {
+  font-size: 0.8rem;
+  margin: 0px 35px;
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+}
+
+.summary {
+  width: 40%;
+  height: 80%;
+  margin: auto;
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+  display: flex;
+  flex-direction: column;
+}
+
+.sum-title {
+  margin: 0px;
+}
+
+.items {
+  height: 100px;
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+.item-text {
+  margin: 0px;
+  font-size: 0.9rem;
+}
+
+.item-score {
+  font-size: 0.9rem;
+  margin: 0px;
+  margin-left: 40px;
+}
+
+#item1 .item-text {
+  color: rgb(255, 85, 85);
+}
+
+#item1 {
+  background-color: rgba(255, 85, 85, 0.1);
+}
+
+#item2 .item-text {
+  color: #ffb21e;
+}
+
+#item2 {
+  background-color: #ffb01e32;
+}
+
+#item3 .item-text {
+  color: #00bb8f;
+}
+
+#item3 {
+  background-color: #00bb8f27;
+}
+
+#item4 .item-text {
+  color: #1125d6;
+}
+
+#item4 {
+  background-color: #1125d624;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.btn {
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(49, 44, 233);
+  background: linear-gradient(
+    0deg,
+    hsl(241, 81%, 54%) 0%,
+    hsl(252, 100%, 67%) 99%
+  );
+}
+
+.btn-text {
+  margin: 13px;
+  font-size: 0.8rem;
+}
+
+span {
+  color: rgb(144, 144, 144);
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    width: 99vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    margin-top: -10px;
+    justify-content: flex-start;
+    height: 90vh;
+  }
+
+  .result {
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .text {
+    margin: 10px 80px 40px 80px;
+  }
+
+  .great {
+    margin: 15px 0px 0px 0px;
+  }
+
+  .summary {
+    width: 80%;
+    height: 50%;
+  }
+
+  .items {
+    height: 50px;
+  }
+
+  .sum-title {
+    margin: 10px 0px;
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+}
